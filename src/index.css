@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.testing {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+
+@layer base {
+  li {
+    @apply p-4
+  }
+
+  h1 {
+    @apply text-3xl md:text-4xl font-bold
+  }
+
+  h2 {
+    @apply text-3xl font-bold
+  }
+
+  h3 {
+    @apply text-xl font-bold
+  }
+}
+
+.map-container-2 {height: 500px;}
+
