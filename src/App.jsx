@@ -1,7 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
-import castle from './assets/castle.mp4';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React,{useEffect} from "react";
